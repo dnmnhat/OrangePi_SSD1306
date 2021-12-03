@@ -7,7 +7,7 @@ LIBS=-lpthread -lwiringPi
 CFLAGS=-Wall -Wextra -ggdb -pedantic -D_POSIX_C_SOURCE=200809L -O #-pg
 
 # Linker flags
-LDFLAGS=#-pg
+LDFLAGS=-lrt -lcrypt
 
 # Indentation flags
 # IFLAGS=-br -brs -brf -npsl -ce -cli4 -bli4 -nut
