@@ -11,7 +11,7 @@ If you use [armbian], just run `sudo armbian-config` and go to System > Hardware
 
 After that, clone the repository:
 ```sh
-git clone https://github.com/andrejrcarvalho/OrangePi_SSD1306.git
+git clone https://github.com/dnmnhat/OrangePi_SSD1306.git
 ```
 
 
